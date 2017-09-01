@@ -23,7 +23,7 @@ La aplicación permitirá:
 
 Atributos:
 
-- Atributos de un grupo de contactos:
+- Atributos de un contacto:
   - ID
   - Nombre
   - Apellido
@@ -37,7 +37,7 @@ Atributos:
   - Notas
   - Grupo
 
-- Atributos de un grupo:
+- Atributos de un grupo de contactos:
   - ID
   - Nombre
   - Contactos
