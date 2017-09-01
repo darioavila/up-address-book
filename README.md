@@ -21,6 +21,8 @@ La aplicación permitirá:
 - Ordenar los grupos de contactos por orden alfabético o frecuencia
 - Imprimir la lista de contactos
 
+Atributos:
+
 - Atributos de un grupo de contactos:
   - ID
   - Nombre
@@ -50,14 +52,12 @@ URL                                           | Verbo HTTP | Body       | Result
 /contacts/:id                                 | PUT        | Trama JSON | Actualiza un contacto determinado
 /contacts/:id                                 | DELETE     | Vacío      | Borra un contacto determinado
 /contacts?sort=alphabetically\|frequency      | GET        | Vacío      | Retorna todos los contactos, ordenados bajo un criterio determinado
-                                              |            |            |
 /contactGroups                                | GET        | Vacío      | Retorna todos los grupos de contactos
 /contactGroups                                | POST       | Trama JSON | Crea un grupo de contactos
 /contactGroups/:id                            | GET        | Vacío      | Retorna un grupo de contactos determinado
 /contactGroups/:id                            | PUT        | Trama JSON | Actualiza un grupo de contactos determinado
 /contactGroups/:id                            | DELETE     | Vacío      | Borra un grupo de contactos determinado
 /contactGroups?sort=alphabetically\|frequency | GET        | Vacío      | Retorna todos los grupos de contactos, ordenados bajo un criterio determinado
-                                              |            |            |
 /contactGroups/:id/contacts                   | GET        | Vacío      | Retorna los contactos de un grupo de contactos determinado
 /contactGroups/:id/contacts/:id               | GET        | Vacío      | Retorna un contacto determinado de un grupo de contactos determinado
 
