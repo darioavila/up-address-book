@@ -27,13 +27,14 @@ Atributos:
   - ID
   - Nombre
   - Apellido
-  - Teléfono (celular, casa, trabajo)
-  - Email (personal, trabajo)
-  - Foto
-  - Skype
-  - Google Hangouts
-  - Facebook
-  - Dirección
+  - Teléfono celular
+  - Teléfono de la casa
+  - Teléfono del trabajo
+  - Email personal
+  - Email del trabajo
+  - Dirección de la casa
+  - Nombre de usuario de Skype
+  - Nombre de usuario de Facebook
   - Notas
   - Grupo
 
